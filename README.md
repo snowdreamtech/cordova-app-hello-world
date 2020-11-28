@@ -78,3 +78,16 @@ All files inside of `template_src` compose the template from which a user would 
 The package.json in `template_src` should be filled with information that describes *the project that would be created from the template*.
 
 If you want to include `.gitignore` files in your template, you have to name them `gitignore` (without a leading dot) instead. They will be renamed to `.gitignore` upon template expansion.
+
+
+### Preview
+
+![android.png](preview/android.png)
+
+![ios.png](preview/ios.png)
+
+![browser.png](preview/browser.png)
+
+![electron.png](preview/electron.png)
+
+![osx.png](preview/osx.png)
