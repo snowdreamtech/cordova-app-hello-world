@@ -21,12 +21,18 @@
 
 # Apache Cordova Hello World Application
 
-[![NPM](https://nodei.co/npm/cordova-app-hello-world.png)](https://nodei.co/npm/cordova-app-hello-world/)
-
 A simple Hello World application that serves two purposes:
 
 - It is used as the default app template when creating new projects
 - It is a reference for building and publishing custom Cordova Templates
+
+## Use The Template
+
+```bash
+cordova create hello com.example.hello HelloWorld --template https://github.com/snowdreamtech/cordova-app-hello-world.git
+
+cordova create hello com.example.hello HelloWorld --template cordova-app-hello-world
+```
 
 ## Structure of your template
 
@@ -80,7 +86,7 @@ The package.json in `template_src` should be filled with information that descri
 If you want to include `.gitignore` files in your template, you have to name them `gitignore` (without a leading dot) instead. They will be renamed to `.gitignore` upon template expansion.
 
 
-### Preview
+## Preview
 
 ![android.png](preview/android.png)
 
